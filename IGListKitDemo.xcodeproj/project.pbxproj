@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		818662BF1F024E50000539AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662BE1F024E50000539AB /* main.m */; };
 		818662C21F024E50000539AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662C11F024E50000539AB /* AppDelegate.m */; };
-		818662C51F024E50000539AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662C41F024E50000539AB /* ViewController.m */; };
 		818662C81F024E50000539AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818662C61F024E50000539AB /* Main.storyboard */; };
 		818662CA1F024E50000539AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818662C91F024E50000539AB /* Assets.xcassets */; };
 		818662CD1F024E50000539AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818662CB1F024E50000539AB /* LaunchScreen.storyboard */; };
+		818662DA1F025062000539AB /* DemosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662D91F025062000539AB /* DemosViewController.m */; };
+		818662E01F0252EE000539AB /* DemoSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662DF1F0252EE000539AB /* DemoSectionController.m */; };
+		818662E31F0257D9000539AB /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E21F0257D9000539AB /* LabelCell.m */; };
+		818662E61F026521000539AB /* LoadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E51F026521000539AB /* LoadMoreViewController.m */; };
+		818662E91F0266E5000539AB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E81F0266E5000539AB /* BaseViewController.m */; };
+		F4A7B370DAC5792C3508845C /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,23 @@
 		818662BE1F024E50000539AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		818662C01F024E50000539AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		818662C11F024E50000539AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		818662C31F024E50000539AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		818662C41F024E50000539AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		818662C71F024E50000539AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		818662C91F024E50000539AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		818662CC1F024E50000539AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818662CE1F024E50000539AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818662D81F025062000539AB /* DemosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemosViewController.h; sourceTree = "<group>"; };
+		818662D91F025062000539AB /* DemosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemosViewController.m; sourceTree = "<group>"; };
+		818662DE1F0252EE000539AB /* DemoSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSectionController.h; sourceTree = "<group>"; };
+		818662DF1F0252EE000539AB /* DemoSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSectionController.m; sourceTree = "<group>"; };
+		818662E11F0257D9000539AB /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		818662E21F0257D9000539AB /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		818662E41F026521000539AB /* LoadMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreViewController.h; sourceTree = "<group>"; };
+		818662E51F026521000539AB /* LoadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreViewController.m; sourceTree = "<group>"; };
+		818662E71F0266E5000539AB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		818662E81F0266E5000539AB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		88C63C68C46CCEB4A397DF55 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		902BE52A4F6706E2E1708788 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A7B370DAC5792C3508845C /* libPods-IGListKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72D5A319C5953D15CAAF8616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902BE52A4F6706E2E1708788 /* Pods-IGListKitDemo.debug.xcconfig */,
+				88C63C68C46CCEB4A397DF55 /* Pods-IGListKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		818662B11F024E50000539AB = {
 			isa = PBXGroup;
 			children = (
+				818662D41F02501D000539AB /* Models */,
+				818662D51F02501D000539AB /* SectionControllers */,
+				818662D61F02501D000539AB /* ViewControllers */,
+				818662D71F02501D000539AB /* Views */,
 				818662BC1F024E50000539AB /* IGListKitDemo */,
 				818662BB1F024E50000539AB /* Products */,
+				72D5A319C5953D15CAAF8616 /* Pods */,
+				B888684BBD6A7EF8513088C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +92,6 @@
 			children = (
 				818662C01F024E50000539AB /* AppDelegate.h */,
 				818662C11F024E50000539AB /* AppDelegate.m */,
-				818662C31F024E50000539AB /* ViewController.h */,
-				818662C41F024E50000539AB /* ViewController.m */,
 				818662C61F024E50000539AB /* Main.storyboard */,
 				818662C91F024E50000539AB /* Assets.xcassets */,
 				818662CB1F024E50000539AB /* LaunchScreen.storyboard */,
@@ -79,6 +109,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		818662D41F02501D000539AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		818662D51F02501D000539AB /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				818662DE1F0252EE000539AB /* DemoSectionController.h */,
+				818662DF1F0252EE000539AB /* DemoSectionController.m */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		818662D61F02501D000539AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				818662D81F025062000539AB /* DemosViewController.h */,
+				818662D91F025062000539AB /* DemosViewController.m */,
+				818662E41F026521000539AB /* LoadMoreViewController.h */,
+				818662E51F026521000539AB /* LoadMoreViewController.m */,
+				818662E71F0266E5000539AB /* BaseViewController.h */,
+				818662E81F0266E5000539AB /* BaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		818662D71F02501D000539AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				818662E11F0257D9000539AB /* LabelCell.h */,
+				818662E21F0257D9000539AB /* LabelCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B888684BBD6A7EF8513088C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818662D11F024E50000539AB /* Build configuration list for PBXNativeTarget "IGListKitDemo" */;
 			buildPhases = (
+				B4B021FFCF27968EBF72EA2F /* [CP] Check Pods Manifest.lock */,
 				818662B61F024E50000539AB /* Sources */,
 				818662B71F024E50000539AB /* Frameworks */,
 				818662B81F024E50000539AB /* Resources */,
+				D31023251344BF3B891EBC0A /* [CP] Embed Pods Frameworks */,
+				53B4F43F123213A3E870D31D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +224,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53B4F43F123213A3E870D31D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B021FFCF27968EBF72EA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D31023251344BF3B891EBC0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		818662B61F024E50000539AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818662C51F024E50000539AB /* ViewController.m in Sources */,
+				818662E31F0257D9000539AB /* LabelCell.m in Sources */,
+				818662E01F0252EE000539AB /* DemoSectionController.m in Sources */,
 				818662C21F024E50000539AB /* AppDelegate.m in Sources */,
 				818662BF1F024E50000539AB /* main.m in Sources */,
+				818662DA1F025062000539AB /* DemosViewController.m in Sources */,
+				818662E91F0266E5000539AB /* BaseViewController.m in Sources */,
+				818662E61F026521000539AB /* LoadMoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +401,7 @@
 		};
 		818662D21F024E50000539AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902BE52A4F6706E2E1708788 /* Pods-IGListKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IGListKitDemo/Info.plist;
@@ -281,6 +413,7 @@
 		};
 		818662D31F024E50000539AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C63C68C46CCEB4A397DF55 /* Pods-IGListKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IGListKitDemo/Info.plist;
@@ -309,6 +442,7 @@
 				818662D31F024E50000539AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  LoadMoreViewController.h
 //  IGListKitDemo
 //
 //  Created by iOS on 2017/6/27.
 //  Copyright © 2017年 lg. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface LoadMoreViewController : BaseViewController
 
 @end
-
