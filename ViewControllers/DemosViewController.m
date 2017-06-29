@@ -10,6 +10,8 @@
 #import <IGListKit.h>
 #import "DemoSectionController.h"
 #import "LoadMoreViewController.h"
+#import "EmptyViewController.h"
+#import "NestedAdapterViewController.h"
 
 @interface DemosViewController () <IGListAdapterDataSource>
 
@@ -22,14 +24,38 @@
 @implementation DemosViewController
 
 - (void)initSetup {
+    self.title = @"Demos";
+    
     IGListAdapterUpdater *adapterUpdater = [[IGListAdapterUpdater alloc] init];
     _adapter = [[IGListAdapter alloc] initWithUpdater:adapterUpdater viewController:self];
     
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+    [_collectionView setBackgroundColor:[UIColor clearColor]];
     
     _demos = @[
-               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]]
+               [DemoItem DemoItemWithName:@"尾部加载" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"混合数据" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"空视图" controllerClass:[EmptyViewController class]],
+               [DemoItem DemoItemWithName:@"嵌套的适配器" controllerClass:[NestedAdapterViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Tail Loading" controllerClass:[LoadMoreViewController class]],
                ];
 }
 

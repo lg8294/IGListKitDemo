@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81261A2A1F039B3100B35800 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81261A291F039B3100B35800 /* CollectionViewController.m */; };
+		81261A311F03AD9900B35800 /* RemoveSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81261A301F03AD9900B35800 /* RemoveSectionController.m */; };
+		81261A341F03AEEE00B35800 /* RemoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81261A331F03AEEE00B35800 /* RemoveCell.m */; };
+		814A3F8F1F0492FE00D9C58A /* DemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3F8E1F0492FE00D9C58A /* DemoItem.m */; };
+		814A3FA81F04A3AB00D9C58A /* NestedAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FA71F04A3AB00D9C58A /* NestedAdapterViewController.m */; };
+		814A3FAE1F04A82E00D9C58A /* HorizontalSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FAD1F04A82E00D9C58A /* HorizontalSectionController.m */; };
+		814A3FB11F04A96A00D9C58A /* EmbeddedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FB01F04A96A00D9C58A /* EmbeddedCollectionViewCell.m */; };
+		814A3FB41F04AB3C00D9C58A /* EmbeddedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FB31F04AB3C00D9C58A /* EmbeddedSectionController.m */; };
+		814A3FB71F04AE2100D9C58A /* CenterLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FB61F04AE2100D9C58A /* CenterLabelCell.m */; };
+		814A3FBB1F04B26C00D9C58A /* NSArray+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FBA1F04B26C00D9C58A /* NSArray+Number.m */; };
 		818662BF1F024E50000539AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662BE1F024E50000539AB /* main.m */; };
 		818662C21F024E50000539AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662C11F024E50000539AB /* AppDelegate.m */; };
 		818662C81F024E50000539AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818662C61F024E50000539AB /* Main.storyboard */; };
@@ -17,10 +27,34 @@
 		818662E31F0257D9000539AB /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E21F0257D9000539AB /* LabelCell.m */; };
 		818662E61F026521000539AB /* LoadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E51F026521000539AB /* LoadMoreViewController.m */; };
 		818662E91F0266E5000539AB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E81F0266E5000539AB /* BaseViewController.m */; };
+		81D258CE1F03548D003D1D0F /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258CD1F03548D003D1D0F /* EmptyViewController.m */; };
+		81D258D11F035CFD003D1D0F /* LabelSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D01F035CFD003D1D0F /* LabelSectionController.m */; };
+		81D258D71F035E3E003D1D0F /* SpinnerSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */; };
+		81D258DA1F035E7B003D1D0F /* SpinnerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D91F035E7B003D1D0F /* SpinnerCell.m */; };
 		F4A7B370DAC5792C3508845C /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81261A281F039B3100B35800 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		81261A291F039B3100B35800 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		81261A2F1F03AD9900B35800 /* RemoveSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveSectionController.h; sourceTree = "<group>"; };
+		81261A301F03AD9900B35800 /* RemoveSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveSectionController.m; sourceTree = "<group>"; };
+		81261A321F03AEEE00B35800 /* RemoveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveCell.h; sourceTree = "<group>"; };
+		81261A331F03AEEE00B35800 /* RemoveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveCell.m; sourceTree = "<group>"; };
+		814A3F8D1F0492FE00D9C58A /* DemoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItem.h; sourceTree = "<group>"; };
+		814A3F8E1F0492FE00D9C58A /* DemoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoItem.m; sourceTree = "<group>"; };
+		814A3FA61F04A3AB00D9C58A /* NestedAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedAdapterViewController.h; sourceTree = "<group>"; };
+		814A3FA71F04A3AB00D9C58A /* NestedAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedAdapterViewController.m; sourceTree = "<group>"; };
+		814A3FAC1F04A82E00D9C58A /* HorizontalSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalSectionController.h; sourceTree = "<group>"; };
+		814A3FAD1F04A82E00D9C58A /* HorizontalSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalSectionController.m; sourceTree = "<group>"; };
+		814A3FAF1F04A96A00D9C58A /* EmbeddedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedCollectionViewCell.h; sourceTree = "<group>"; };
+		814A3FB01F04A96A00D9C58A /* EmbeddedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbeddedCollectionViewCell.m; sourceTree = "<group>"; };
+		814A3FB21F04AB3C00D9C58A /* EmbeddedSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedSectionController.h; sourceTree = "<group>"; };
+		814A3FB31F04AB3C00D9C58A /* EmbeddedSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbeddedSectionController.m; sourceTree = "<group>"; };
+		814A3FB51F04AE2100D9C58A /* CenterLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterLabelCell.h; sourceTree = "<group>"; };
+		814A3FB61F04AE2100D9C58A /* CenterLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterLabelCell.m; sourceTree = "<group>"; };
+		814A3FB91F04B26C00D9C58A /* NSArray+Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Number.h"; sourceTree = "<group>"; };
+		814A3FBA1F04B26C00D9C58A /* NSArray+Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Number.m"; sourceTree = "<group>"; };
 		818662BA1F024E50000539AB /* IGListKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818662BE1F024E50000539AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		818662C01F024E50000539AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +73,14 @@
 		818662E51F026521000539AB /* LoadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreViewController.m; sourceTree = "<group>"; };
 		818662E71F0266E5000539AB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		818662E81F0266E5000539AB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		81D258CC1F03548D003D1D0F /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		81D258CD1F03548D003D1D0F /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		81D258CF1F035CFD003D1D0F /* LabelSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelSectionController.h; sourceTree = "<group>"; };
+		81D258D01F035CFD003D1D0F /* LabelSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelSectionController.m; sourceTree = "<group>"; };
+		81D258D51F035E3E003D1D0F /* SpinnerSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerSectionController.h; sourceTree = "<group>"; };
+		81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerSectionController.m; sourceTree = "<group>"; };
+		81D258D81F035E7B003D1D0F /* SpinnerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerCell.h; sourceTree = "<group>"; };
+		81D258D91F035E7B003D1D0F /* SpinnerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerCell.m; sourceTree = "<group>"; };
 		88C63C68C46CCEB4A397DF55 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		902BE52A4F6706E2E1708788 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +139,8 @@
 				818662CB1F024E50000539AB /* LaunchScreen.storyboard */,
 				818662CE1F024E50000539AB /* Info.plist */,
 				818662BD1F024E50000539AB /* Supporting Files */,
+				814A3FB91F04B26C00D9C58A /* NSArray+Number.h */,
+				814A3FBA1F04B26C00D9C58A /* NSArray+Number.m */,
 			);
 			path = IGListKitDemo;
 			sourceTree = "<group>";
@@ -112,6 +156,8 @@
 		818662D41F02501D000539AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				814A3F8D1F0492FE00D9C58A /* DemoItem.h */,
+				814A3F8E1F0492FE00D9C58A /* DemoItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +167,16 @@
 			children = (
 				818662DE1F0252EE000539AB /* DemoSectionController.h */,
 				818662DF1F0252EE000539AB /* DemoSectionController.m */,
+				81D258CF1F035CFD003D1D0F /* LabelSectionController.h */,
+				81D258D01F035CFD003D1D0F /* LabelSectionController.m */,
+				81D258D51F035E3E003D1D0F /* SpinnerSectionController.h */,
+				81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */,
+				81261A2F1F03AD9900B35800 /* RemoveSectionController.h */,
+				81261A301F03AD9900B35800 /* RemoveSectionController.m */,
+				814A3FAC1F04A82E00D9C58A /* HorizontalSectionController.h */,
+				814A3FAD1F04A82E00D9C58A /* HorizontalSectionController.m */,
+				814A3FB21F04AB3C00D9C58A /* EmbeddedSectionController.h */,
+				814A3FB31F04AB3C00D9C58A /* EmbeddedSectionController.m */,
 			);
 			path = SectionControllers;
 			sourceTree = "<group>";
@@ -128,12 +184,18 @@
 		818662D61F02501D000539AB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				818662E71F0266E5000539AB /* BaseViewController.h */,
+				818662E81F0266E5000539AB /* BaseViewController.m */,
+				81261A281F039B3100B35800 /* CollectionViewController.h */,
+				81261A291F039B3100B35800 /* CollectionViewController.m */,
 				818662D81F025062000539AB /* DemosViewController.h */,
 				818662D91F025062000539AB /* DemosViewController.m */,
 				818662E41F026521000539AB /* LoadMoreViewController.h */,
 				818662E51F026521000539AB /* LoadMoreViewController.m */,
-				818662E71F0266E5000539AB /* BaseViewController.h */,
-				818662E81F0266E5000539AB /* BaseViewController.m */,
+				81D258CC1F03548D003D1D0F /* EmptyViewController.h */,
+				81D258CD1F03548D003D1D0F /* EmptyViewController.m */,
+				814A3FA61F04A3AB00D9C58A /* NestedAdapterViewController.h */,
+				814A3FA71F04A3AB00D9C58A /* NestedAdapterViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -143,6 +205,14 @@
 			children = (
 				818662E11F0257D9000539AB /* LabelCell.h */,
 				818662E21F0257D9000539AB /* LabelCell.m */,
+				81D258D81F035E7B003D1D0F /* SpinnerCell.h */,
+				81D258D91F035E7B003D1D0F /* SpinnerCell.m */,
+				81261A321F03AEEE00B35800 /* RemoveCell.h */,
+				81261A331F03AEEE00B35800 /* RemoveCell.m */,
+				814A3FAF1F04A96A00D9C58A /* EmbeddedCollectionViewCell.h */,
+				814A3FB01F04A96A00D9C58A /* EmbeddedCollectionViewCell.m */,
+				814A3FB51F04AE2100D9C58A /* CenterLabelCell.h */,
+				814A3FB61F04AE2100D9C58A /* CenterLabelCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +259,7 @@
 				TargetAttributes = {
 					818662B91F024E50000539AB = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P9U3B2WZ8G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -278,12 +349,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				818662E31F0257D9000539AB /* LabelCell.m in Sources */,
+				814A3FB71F04AE2100D9C58A /* CenterLabelCell.m in Sources */,
 				818662E01F0252EE000539AB /* DemoSectionController.m in Sources */,
+				81D258DA1F035E7B003D1D0F /* SpinnerCell.m in Sources */,
 				818662C21F024E50000539AB /* AppDelegate.m in Sources */,
 				818662BF1F024E50000539AB /* main.m in Sources */,
+				81D258D11F035CFD003D1D0F /* LabelSectionController.m in Sources */,
+				814A3FBB1F04B26C00D9C58A /* NSArray+Number.m in Sources */,
 				818662DA1F025062000539AB /* DemosViewController.m in Sources */,
 				818662E91F0266E5000539AB /* BaseViewController.m in Sources */,
+				81261A2A1F039B3100B35800 /* CollectionViewController.m in Sources */,
+				814A3FAE1F04A82E00D9C58A /* HorizontalSectionController.m in Sources */,
+				814A3FB11F04A96A00D9C58A /* EmbeddedCollectionViewCell.m in Sources */,
+				81261A311F03AD9900B35800 /* RemoveSectionController.m in Sources */,
+				81D258CE1F03548D003D1D0F /* EmptyViewController.m in Sources */,
+				814A3FA81F04A3AB00D9C58A /* NestedAdapterViewController.m in Sources */,
+				814A3FB41F04AB3C00D9C58A /* EmbeddedSectionController.m in Sources */,
+				814A3F8F1F0492FE00D9C58A /* DemoItem.m in Sources */,
 				818662E61F026521000539AB /* LoadMoreViewController.m in Sources */,
+				81D258D71F035E3E003D1D0F /* SpinnerSectionController.m in Sources */,
+				81261A341F03AEEE00B35800 /* RemoveCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +489,7 @@
 			baseConfigurationReference = 902BE52A4F6706E2E1708788 /* Pods-IGListKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9U3B2WZ8G;
 				INFOPLIST_FILE = IGListKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lg.IGListKitDemo;
@@ -416,6 +502,7 @@
 			baseConfigurationReference = 88C63C68C46CCEB4A397DF55 /* Pods-IGListKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9U3B2WZ8G;
 				INFOPLIST_FILE = IGListKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lg.IGListKitDemo;

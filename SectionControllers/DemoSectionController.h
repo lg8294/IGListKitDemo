@@ -7,21 +7,7 @@
 //
 
 #import <IGListKit/IGListKit.h>
-
-@interface DemoItem : NSObject <IGListDiffable>
-
-@property (nonatomic, copy, readonly) NSString *name;
-@property (nonatomic, copy, readonly) Class controllerClass;
-@property (nonatomic, copy, readonly) NSString *controllerIdentifier;
-
-- (instancetype)initWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier;
-+ (instancetype)DemoItemWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier;
-+ (instancetype)DemoItemWithName:(NSString *)name controllerClass:(Class)controllerClass;
-
-//- (instancetype)init; NS_UNAVAILABLE;
-//- (instancetype)new; NS_UNAVAILABLE;
-
-@end
+#import "DemoItem.h"
 
 @interface DemoSectionController : IGListSectionController
 

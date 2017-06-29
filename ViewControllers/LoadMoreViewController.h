@@ -6,8 +6,8 @@
 //  Copyright © 2017年 lg. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "CollectionViewController.h"
 
-@interface LoadMoreViewController : BaseViewController
+@interface LoadMoreViewController : CollectionViewController
 
 @end

@@ -8,44 +8,7 @@
 
 #import "DemoSectionController.h"
 #import "LabelCell.h"
-
-@implementation DemoItem
-
-- (instancetype)initWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier {
-    self = [super init];
-    if (self) {
-        _name = [name copy];
-        _controllerClass = [controllerClass copy];
-        _controllerIdentifier = [controllerIdentifier copy];
-    }
-    return self;
-}
-
-+ (instancetype)DemoItemWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier {
-    return [[self alloc] initWithName:name controllerClass:controllerClass controllerIdentifier:controllerIdentifier];
-}
-
-+ (instancetype)DemoItemWithName:(NSString *)name controllerClass:(Class)controllerClass {
-    return [[self alloc] initWithName:name controllerClass:controllerClass controllerIdentifier:nil];
-}
-
-- (id<NSObject>)diffIdentifier {
-    return _name;
-}
-
-- (BOOL)isEqualToDiffableObject:(id<IGListDiffable>)object {
-    if (self == object) {
-        return YES;
-    }
-    
-    if (![(NSObject *)object isKindOfClass:[DemoItem class]]) {
-        return NO;
-    }
-    
-    DemoItem *oobject = (DemoItem *)object;
-    return _controllerClass == oobject.controllerClass && [_controllerIdentifier isEqualToString:oobject.controllerIdentifier];
-}
-@end
+#import "DemoItem.h"
 
 @implementation DemoSectionController
 
@@ -56,7 +19,7 @@
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
     LabelCell *cell = [self.collectionContext dequeueReusableCellOfClass:[LabelCell class] forSectionController:self atIndex:index];
     
-    cell.text = self.object.name;
+    cell.text = _object.name;
     return cell;
 }
 

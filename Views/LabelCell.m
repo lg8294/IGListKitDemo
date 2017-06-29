@@ -70,8 +70,9 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self.contentView addSubview:[self label]];
-        [self.contentView.layer addSublayer:[self separator]];
+        [self initSetup];
+        [self.contentView addSubview:self.label];
+        [self.contentView.layer addSublayer:self.separator];
         [self.contentView setBackgroundColor:[UIColor whiteColor]];
     }
     return self;
@@ -90,9 +91,9 @@
     [super layoutSubviews];
     CGRect bounds = self.contentView.bounds;
     self.label.frame = UIEdgeInsetsInsetRect(bounds, self.insets);
-    CGFloat height = 0.5;
+    CGFloat height = 1.0/[UIScreen mainScreen].scale;
     CGFloat left = self.insets.left;
-    self.separator.frame = CGRectMake(left, bounds.size.height, bounds.size.width - left, height);
+    self.separator.frame = CGRectMake(left, bounds.size.height-height, bounds.size.width - left, height);
 }
 
 - (void)setHighlighted:(BOOL)highlighted {
