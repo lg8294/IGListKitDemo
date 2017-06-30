@@ -17,6 +17,16 @@
 		814A3FB41F04AB3C00D9C58A /* EmbeddedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FB31F04AB3C00D9C58A /* EmbeddedSectionController.m */; };
 		814A3FB71F04AE2100D9C58A /* CenterLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FB61F04AE2100D9C58A /* CenterLabelCell.m */; };
 		814A3FBB1F04B26C00D9C58A /* NSArray+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FBA1F04B26C00D9C58A /* NSArray+Number.m */; };
+		814A3FBE1F04C9DB00D9C58A /* MixedDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FBD1F04C9DB00D9C58A /* MixedDataViewController.m */; };
+		814A3FC11F04CBD700D9C58A /* ExpandableSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FC01F04CBD700D9C58A /* ExpandableSectionController.m */; };
+		814A3FC41F04CBE900D9C58A /* GridSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FC31F04CBE900D9C58A /* GridSectionController.m */; };
+		814A3FC71F04CBFB00D9C58A /* UserSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FC61F04CBFB00D9C58A /* UserSectionController.m */; };
+		814A3FCA1F04CC6A00D9C58A /* GridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FC91F04CC6A00D9C58A /* GridItem.m */; };
+		814A3FCD1F04CEF400D9C58A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FCC1F04CEF400D9C58A /* User.m */; };
+		814A3FD01F04DF4E00D9C58A /* DetailLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FCF1F04DF4E00D9C58A /* DetailLabelCell.m */; };
+		814A3FD31F04FC1400D9C58A /* SingleSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FD21F04FC1400D9C58A /* SingleSectionViewController.m */; };
+		814A3FD91F04FD8900D9C58A /* NibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A3FD71F04FD8900D9C58A /* NibCell.m */; };
+		814A3FDA1F04FD8900D9C58A /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814A3FD81F04FD8900D9C58A /* NibCell.xib */; };
 		818662BF1F024E50000539AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662BE1F024E50000539AB /* main.m */; };
 		818662C21F024E50000539AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662C11F024E50000539AB /* AppDelegate.m */; };
 		818662C81F024E50000539AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818662C61F024E50000539AB /* Main.storyboard */; };
@@ -31,6 +41,9 @@
 		81D258D11F035CFD003D1D0F /* LabelSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D01F035CFD003D1D0F /* LabelSectionController.m */; };
 		81D258D71F035E3E003D1D0F /* SpinnerSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */; };
 		81D258DA1F035E7B003D1D0F /* SpinnerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D91F035E7B003D1D0F /* SpinnerCell.m */; };
+		81E6B7041F05F38F001225C2 /* WorkingRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E6B7031F05F38F001225C2 /* WorkingRangeViewController.m */; };
+		81E6B70A1F05F4BA001225C2 /* WorkingRangeSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E6B7091F05F4BA001225C2 /* WorkingRangeSectionController.m */; };
+		81E6B70D1F05F679001225C2 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E6B70C1F05F679001225C2 /* ImageCell.m */; };
 		F4A7B370DAC5792C3508845C /* libPods-IGListKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +68,25 @@
 		814A3FB61F04AE2100D9C58A /* CenterLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterLabelCell.m; sourceTree = "<group>"; };
 		814A3FB91F04B26C00D9C58A /* NSArray+Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Number.h"; sourceTree = "<group>"; };
 		814A3FBA1F04B26C00D9C58A /* NSArray+Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Number.m"; sourceTree = "<group>"; };
+		814A3FBC1F04C9DB00D9C58A /* MixedDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedDataViewController.h; sourceTree = "<group>"; };
+		814A3FBD1F04C9DB00D9C58A /* MixedDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedDataViewController.m; sourceTree = "<group>"; };
+		814A3FBF1F04CBD700D9C58A /* ExpandableSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableSectionController.h; sourceTree = "<group>"; };
+		814A3FC01F04CBD700D9C58A /* ExpandableSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableSectionController.m; sourceTree = "<group>"; };
+		814A3FC21F04CBE900D9C58A /* GridSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridSectionController.h; sourceTree = "<group>"; };
+		814A3FC31F04CBE900D9C58A /* GridSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSectionController.m; sourceTree = "<group>"; };
+		814A3FC51F04CBFB00D9C58A /* UserSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSectionController.h; sourceTree = "<group>"; };
+		814A3FC61F04CBFB00D9C58A /* UserSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSectionController.m; sourceTree = "<group>"; };
+		814A3FC81F04CC6A00D9C58A /* GridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridItem.h; sourceTree = "<group>"; };
+		814A3FC91F04CC6A00D9C58A /* GridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridItem.m; sourceTree = "<group>"; };
+		814A3FCB1F04CEF400D9C58A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		814A3FCC1F04CEF400D9C58A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		814A3FCE1F04DF4E00D9C58A /* DetailLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailLabelCell.h; sourceTree = "<group>"; };
+		814A3FCF1F04DF4E00D9C58A /* DetailLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailLabelCell.m; sourceTree = "<group>"; };
+		814A3FD11F04FC1400D9C58A /* SingleSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSectionViewController.h; sourceTree = "<group>"; };
+		814A3FD21F04FC1400D9C58A /* SingleSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSectionViewController.m; sourceTree = "<group>"; };
+		814A3FD61F04FD8900D9C58A /* NibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibCell.h; sourceTree = "<group>"; };
+		814A3FD71F04FD8900D9C58A /* NibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NibCell.m; sourceTree = "<group>"; };
+		814A3FD81F04FD8900D9C58A /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
 		818662BA1F024E50000539AB /* IGListKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818662BE1F024E50000539AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		818662C01F024E50000539AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +113,12 @@
 		81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerSectionController.m; sourceTree = "<group>"; };
 		81D258D81F035E7B003D1D0F /* SpinnerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerCell.h; sourceTree = "<group>"; };
 		81D258D91F035E7B003D1D0F /* SpinnerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerCell.m; sourceTree = "<group>"; };
+		81E6B7021F05F38F001225C2 /* WorkingRangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkingRangeViewController.h; sourceTree = "<group>"; };
+		81E6B7031F05F38F001225C2 /* WorkingRangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkingRangeViewController.m; sourceTree = "<group>"; };
+		81E6B7081F05F4BA001225C2 /* WorkingRangeSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkingRangeSectionController.h; sourceTree = "<group>"; };
+		81E6B7091F05F4BA001225C2 /* WorkingRangeSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkingRangeSectionController.m; sourceTree = "<group>"; };
+		81E6B70B1F05F679001225C2 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		81E6B70C1F05F679001225C2 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		88C63C68C46CCEB4A397DF55 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		902BE52A4F6706E2E1708788 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CF3A3457B3D1DC4FF33D92AD /* libPods-IGListKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGListKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +196,10 @@
 			children = (
 				814A3F8D1F0492FE00D9C58A /* DemoItem.h */,
 				814A3F8E1F0492FE00D9C58A /* DemoItem.m */,
+				814A3FC81F04CC6A00D9C58A /* GridItem.h */,
+				814A3FC91F04CC6A00D9C58A /* GridItem.m */,
+				814A3FCB1F04CEF400D9C58A /* User.h */,
+				814A3FCC1F04CEF400D9C58A /* User.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,12 +213,20 @@
 				81D258D01F035CFD003D1D0F /* LabelSectionController.m */,
 				81D258D51F035E3E003D1D0F /* SpinnerSectionController.h */,
 				81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */,
+				814A3FBF1F04CBD700D9C58A /* ExpandableSectionController.h */,
+				814A3FC01F04CBD700D9C58A /* ExpandableSectionController.m */,
+				814A3FC21F04CBE900D9C58A /* GridSectionController.h */,
+				814A3FC31F04CBE900D9C58A /* GridSectionController.m */,
+				814A3FC51F04CBFB00D9C58A /* UserSectionController.h */,
+				814A3FC61F04CBFB00D9C58A /* UserSectionController.m */,
 				81261A2F1F03AD9900B35800 /* RemoveSectionController.h */,
 				81261A301F03AD9900B35800 /* RemoveSectionController.m */,
 				814A3FAC1F04A82E00D9C58A /* HorizontalSectionController.h */,
 				814A3FAD1F04A82E00D9C58A /* HorizontalSectionController.m */,
 				814A3FB21F04AB3C00D9C58A /* EmbeddedSectionController.h */,
 				814A3FB31F04AB3C00D9C58A /* EmbeddedSectionController.m */,
+				81E6B7081F05F4BA001225C2 /* WorkingRangeSectionController.h */,
+				81E6B7091F05F4BA001225C2 /* WorkingRangeSectionController.m */,
 			);
 			path = SectionControllers;
 			sourceTree = "<group>";
@@ -192,10 +242,16 @@
 				818662D91F025062000539AB /* DemosViewController.m */,
 				818662E41F026521000539AB /* LoadMoreViewController.h */,
 				818662E51F026521000539AB /* LoadMoreViewController.m */,
+				814A3FBC1F04C9DB00D9C58A /* MixedDataViewController.h */,
+				814A3FBD1F04C9DB00D9C58A /* MixedDataViewController.m */,
 				81D258CC1F03548D003D1D0F /* EmptyViewController.h */,
 				81D258CD1F03548D003D1D0F /* EmptyViewController.m */,
 				814A3FA61F04A3AB00D9C58A /* NestedAdapterViewController.h */,
 				814A3FA71F04A3AB00D9C58A /* NestedAdapterViewController.m */,
+				814A3FD11F04FC1400D9C58A /* SingleSectionViewController.h */,
+				814A3FD21F04FC1400D9C58A /* SingleSectionViewController.m */,
+				81E6B7021F05F38F001225C2 /* WorkingRangeViewController.h */,
+				81E6B7031F05F38F001225C2 /* WorkingRangeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -207,12 +263,19 @@
 				818662E21F0257D9000539AB /* LabelCell.m */,
 				81D258D81F035E7B003D1D0F /* SpinnerCell.h */,
 				81D258D91F035E7B003D1D0F /* SpinnerCell.m */,
+				814A3FCE1F04DF4E00D9C58A /* DetailLabelCell.h */,
+				814A3FCF1F04DF4E00D9C58A /* DetailLabelCell.m */,
 				81261A321F03AEEE00B35800 /* RemoveCell.h */,
 				81261A331F03AEEE00B35800 /* RemoveCell.m */,
 				814A3FAF1F04A96A00D9C58A /* EmbeddedCollectionViewCell.h */,
 				814A3FB01F04A96A00D9C58A /* EmbeddedCollectionViewCell.m */,
 				814A3FB51F04AE2100D9C58A /* CenterLabelCell.h */,
 				814A3FB61F04AE2100D9C58A /* CenterLabelCell.m */,
+				814A3FD61F04FD8900D9C58A /* NibCell.h */,
+				814A3FD71F04FD8900D9C58A /* NibCell.m */,
+				814A3FD81F04FD8900D9C58A /* NibCell.xib */,
+				81E6B70B1F05F679001225C2 /* ImageCell.h */,
+				81E6B70C1F05F679001225C2 /* ImageCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				818662CD1F024E50000539AB /* LaunchScreen.storyboard in Resources */,
+				814A3FDA1F04FD8900D9C58A /* NibCell.xib in Resources */,
 				818662CA1F024E50000539AB /* Assets.xcassets in Resources */,
 				818662C81F024E50000539AB /* Main.storyboard in Resources */,
 			);
@@ -349,26 +413,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				818662E31F0257D9000539AB /* LabelCell.m in Sources */,
+				81E6B70A1F05F4BA001225C2 /* WorkingRangeSectionController.m in Sources */,
 				814A3FB71F04AE2100D9C58A /* CenterLabelCell.m in Sources */,
+				814A3FCD1F04CEF400D9C58A /* User.m in Sources */,
 				818662E01F0252EE000539AB /* DemoSectionController.m in Sources */,
 				81D258DA1F035E7B003D1D0F /* SpinnerCell.m in Sources */,
+				814A3FBE1F04C9DB00D9C58A /* MixedDataViewController.m in Sources */,
 				818662C21F024E50000539AB /* AppDelegate.m in Sources */,
 				818662BF1F024E50000539AB /* main.m in Sources */,
 				81D258D11F035CFD003D1D0F /* LabelSectionController.m in Sources */,
+				814A3FC11F04CBD700D9C58A /* ExpandableSectionController.m in Sources */,
 				814A3FBB1F04B26C00D9C58A /* NSArray+Number.m in Sources */,
 				818662DA1F025062000539AB /* DemosViewController.m in Sources */,
+				81E6B70D1F05F679001225C2 /* ImageCell.m in Sources */,
 				818662E91F0266E5000539AB /* BaseViewController.m in Sources */,
 				81261A2A1F039B3100B35800 /* CollectionViewController.m in Sources */,
 				814A3FAE1F04A82E00D9C58A /* HorizontalSectionController.m in Sources */,
 				814A3FB11F04A96A00D9C58A /* EmbeddedCollectionViewCell.m in Sources */,
 				81261A311F03AD9900B35800 /* RemoveSectionController.m in Sources */,
 				81D258CE1F03548D003D1D0F /* EmptyViewController.m in Sources */,
+				814A3FC41F04CBE900D9C58A /* GridSectionController.m in Sources */,
+				814A3FD91F04FD8900D9C58A /* NibCell.m in Sources */,
+				814A3FCA1F04CC6A00D9C58A /* GridItem.m in Sources */,
 				814A3FA81F04A3AB00D9C58A /* NestedAdapterViewController.m in Sources */,
 				814A3FB41F04AB3C00D9C58A /* EmbeddedSectionController.m in Sources */,
 				814A3F8F1F0492FE00D9C58A /* DemoItem.m in Sources */,
 				818662E61F026521000539AB /* LoadMoreViewController.m in Sources */,
+				814A3FD31F04FC1400D9C58A /* SingleSectionViewController.m in Sources */,
+				81E6B7041F05F38F001225C2 /* WorkingRangeViewController.m in Sources */,
+				814A3FC71F04CBFB00D9C58A /* UserSectionController.m in Sources */,
 				81D258D71F035E3E003D1D0F /* SpinnerSectionController.m in Sources */,
 				81261A341F03AEEE00B35800 /* RemoveCell.m in Sources */,
+				814A3FD01F04DF4E00D9C58A /* DetailLabelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

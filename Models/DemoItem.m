@@ -33,16 +33,18 @@
 }
 
 - (BOOL)isEqualToDiffableObject:(id<IGListDiffable>)object {
-    if (self == object) {
+    if ([self isEqual:object]) {
         return YES;
     }
     
-    if (![(NSObject *)object isKindOfClass:[DemoItem class]]) {
+    if ([(NSObject *)object isKindOfClass:[DemoItem class]]) {
+        DemoItem *oobject = (DemoItem *)object;
+        return _controllerClass == oobject.controllerClass && [_controllerIdentifier isEqualToString:oobject.controllerIdentifier];
+    } else {
         return NO;
     }
     
-    DemoItem *oobject = (DemoItem *)object;
-    return _controllerClass == oobject.controllerClass && [_controllerIdentifier isEqualToString:oobject.controllerIdentifier];
+    
 }
 
 @end
