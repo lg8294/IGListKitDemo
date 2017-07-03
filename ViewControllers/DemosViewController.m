@@ -10,11 +10,14 @@
 #import <IGListKit.h>
 #import "DemoSectionController.h"
 #import "LoadMoreViewController.h"
+#import "SearchViewController.h"
 #import "MixedDataViewController.h"
 #import "EmptyViewController.h"
 #import "NestedAdapterViewController.h"
 #import "SingleSectionViewController.h"
 #import "WorkingRangeViewController.h"
+#import "DiffTableViewController.h"
+#import "SupplementaryViewController.h"
 
 @interface DemosViewController () <IGListAdapterDataSource>
 
@@ -38,16 +41,16 @@
     
     _demos = @[
                [DemoItem DemoItemWithName:@"尾部加载" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"自动搜索" controllerClass:[SearchViewController class]],
                [DemoItem DemoItemWithName:@"混合数据" controllerClass:[MixedDataViewController class]],
                [DemoItem DemoItemWithName:@"嵌套的适配器" controllerClass:[NestedAdapterViewController class]],
                [DemoItem DemoItemWithName:@"空视图" controllerClass:[EmptyViewController class]],
                [DemoItem DemoItemWithName:@"单节控制器" controllerClass:[SingleSectionViewController class]],
-               
                [DemoItem DemoItemWithName:@"Storyboard" controllerClass:[LoadMoreViewController class]],
                [DemoItem DemoItemWithName:@"Single Section Storyboard" controllerClass:[LoadMoreViewController class]],
                [DemoItem DemoItemWithName:@"工作范围" controllerClass:[WorkingRangeViewController class]],
-               [DemoItem DemoItemWithName:@"Diff算法" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"补充视图" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Diff算法" controllerClass:[DiffTableViewController class]],
+               [DemoItem DemoItemWithName:@"补充视图" controllerClass:[SupplementaryViewController class]],
                [DemoItem DemoItemWithName:@"Self-sizing cells" controllerClass:[LoadMoreViewController class]],
                [DemoItem DemoItemWithName:@"Display delegate" controllerClass:[LoadMoreViewController class]],
                [DemoItem DemoItemWithName:@"Stacked Section Controllers" controllerClass:[LoadMoreViewController class]],

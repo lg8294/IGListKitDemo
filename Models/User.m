@@ -21,6 +21,10 @@
     return self;
 }
 
++ (instancetype)userWithPk:(NSInteger)pk name:(NSString *)name handle:(NSString *)handle {
+    return [[self alloc] initWithPk:pk name:name handle:handle];
+}
+
 - (id<NSObject>)diffIdentifier {
     return [NSNumber numberWithInteger:_pk];
 }

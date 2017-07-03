@@ -37,6 +37,16 @@
 		818662E31F0257D9000539AB /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E21F0257D9000539AB /* LabelCell.m */; };
 		818662E61F026521000539AB /* LoadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E51F026521000539AB /* LoadMoreViewController.m */; };
 		818662E91F0266E5000539AB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818662E81F0266E5000539AB /* BaseViewController.m */; };
+		819F53341F09F2DF00CC0626 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F53331F09F2DF00CC0626 /* Person.m */; };
+		819F53371F09F4C100CC0626 /* DiffTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F53361F09F4C100CC0626 /* DiffTableViewController.m */; };
+		819F533A1F0A168300CC0626 /* SupplementaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F53391F0A168300CC0626 /* SupplementaryViewController.m */; };
+		819F533D1F0A176800CC0626 /* FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F533C1F0A176800CC0626 /* FeedItem.m */; };
+		819F53401F0A1BF300CC0626 /* FeedItemSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F533F1F0A1BF300CC0626 /* FeedItemSectionController.m */; };
+		819F53471F0A1E2000CC0626 /* UserHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F53451F0A1E2000CC0626 /* UserHeaderView.m */; };
+		819F53481F0A1E2000CC0626 /* UserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819F53461F0A1E2000CC0626 /* UserHeaderView.xib */; };
+		819F534B1F0A2E9200CC0626 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F534A1F0A2E9200CC0626 /* SearchViewController.m */; };
+		819F534E1F0A2F7800CC0626 /* SearchSectionCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F534D1F0A2F7800CC0626 /* SearchSectionCotroller.m */; };
+		819F53511F0A322A00CC0626 /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F53501F0A322A00CC0626 /* SearchCell.m */; };
 		81D258CE1F03548D003D1D0F /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258CD1F03548D003D1D0F /* EmptyViewController.m */; };
 		81D258D11F035CFD003D1D0F /* LabelSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D01F035CFD003D1D0F /* LabelSectionController.m */; };
 		81D258D71F035E3E003D1D0F /* SpinnerSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D258D61F035E3E003D1D0F /* SpinnerSectionController.m */; };
@@ -105,6 +115,25 @@
 		818662E51F026521000539AB /* LoadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreViewController.m; sourceTree = "<group>"; };
 		818662E71F0266E5000539AB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		818662E81F0266E5000539AB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		819F53321F09F2DF00CC0626 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		819F53331F09F2DF00CC0626 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		819F53351F09F4C100CC0626 /* DiffTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffTableViewController.h; sourceTree = "<group>"; };
+		819F53361F09F4C100CC0626 /* DiffTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffTableViewController.m; sourceTree = "<group>"; };
+		819F53381F0A168300CC0626 /* SupplementaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupplementaryViewController.h; sourceTree = "<group>"; };
+		819F53391F0A168300CC0626 /* SupplementaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplementaryViewController.m; sourceTree = "<group>"; };
+		819F533B1F0A176800CC0626 /* FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedItem.h; sourceTree = "<group>"; };
+		819F533C1F0A176800CC0626 /* FeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedItem.m; sourceTree = "<group>"; };
+		819F533E1F0A1BF300CC0626 /* FeedItemSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedItemSectionController.h; sourceTree = "<group>"; };
+		819F533F1F0A1BF300CC0626 /* FeedItemSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedItemSectionController.m; sourceTree = "<group>"; };
+		819F53441F0A1E2000CC0626 /* UserHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHeaderView.h; sourceTree = "<group>"; };
+		819F53451F0A1E2000CC0626 /* UserHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHeaderView.m; sourceTree = "<group>"; };
+		819F53461F0A1E2000CC0626 /* UserHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserHeaderView.xib; sourceTree = "<group>"; };
+		819F53491F0A2E9200CC0626 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		819F534A1F0A2E9200CC0626 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		819F534C1F0A2F7800CC0626 /* SearchSectionCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchSectionCotroller.h; sourceTree = "<group>"; };
+		819F534D1F0A2F7800CC0626 /* SearchSectionCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchSectionCotroller.m; sourceTree = "<group>"; };
+		819F534F1F0A322A00CC0626 /* SearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCell.h; sourceTree = "<group>"; };
+		819F53501F0A322A00CC0626 /* SearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCell.m; sourceTree = "<group>"; };
 		81D258CC1F03548D003D1D0F /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
 		81D258CD1F03548D003D1D0F /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
 		81D258CF1F035CFD003D1D0F /* LabelSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelSectionController.h; sourceTree = "<group>"; };
@@ -200,6 +229,10 @@
 				814A3FC91F04CC6A00D9C58A /* GridItem.m */,
 				814A3FCB1F04CEF400D9C58A /* User.h */,
 				814A3FCC1F04CEF400D9C58A /* User.m */,
+				819F53321F09F2DF00CC0626 /* Person.h */,
+				819F53331F09F2DF00CC0626 /* Person.m */,
+				819F533B1F0A176800CC0626 /* FeedItem.h */,
+				819F533C1F0A176800CC0626 /* FeedItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,6 +260,10 @@
 				814A3FB31F04AB3C00D9C58A /* EmbeddedSectionController.m */,
 				81E6B7081F05F4BA001225C2 /* WorkingRangeSectionController.h */,
 				81E6B7091F05F4BA001225C2 /* WorkingRangeSectionController.m */,
+				819F533E1F0A1BF300CC0626 /* FeedItemSectionController.h */,
+				819F533F1F0A1BF300CC0626 /* FeedItemSectionController.m */,
+				819F534C1F0A2F7800CC0626 /* SearchSectionCotroller.h */,
+				819F534D1F0A2F7800CC0626 /* SearchSectionCotroller.m */,
 			);
 			path = SectionControllers;
 			sourceTree = "<group>";
@@ -252,6 +289,12 @@
 				814A3FD21F04FC1400D9C58A /* SingleSectionViewController.m */,
 				81E6B7021F05F38F001225C2 /* WorkingRangeViewController.h */,
 				81E6B7031F05F38F001225C2 /* WorkingRangeViewController.m */,
+				819F53351F09F4C100CC0626 /* DiffTableViewController.h */,
+				819F53361F09F4C100CC0626 /* DiffTableViewController.m */,
+				819F53381F0A168300CC0626 /* SupplementaryViewController.h */,
+				819F53391F0A168300CC0626 /* SupplementaryViewController.m */,
+				819F53491F0A2E9200CC0626 /* SearchViewController.h */,
+				819F534A1F0A2E9200CC0626 /* SearchViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -276,6 +319,11 @@
 				814A3FD81F04FD8900D9C58A /* NibCell.xib */,
 				81E6B70B1F05F679001225C2 /* ImageCell.h */,
 				81E6B70C1F05F679001225C2 /* ImageCell.m */,
+				819F53441F0A1E2000CC0626 /* UserHeaderView.h */,
+				819F53451F0A1E2000CC0626 /* UserHeaderView.m */,
+				819F53461F0A1E2000CC0626 /* UserHeaderView.xib */,
+				819F534F1F0A322A00CC0626 /* SearchCell.h */,
+				819F53501F0A322A00CC0626 /* SearchCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819F53481F0A1E2000CC0626 /* UserHeaderView.xib in Resources */,
 				818662CD1F024E50000539AB /* LaunchScreen.storyboard in Resources */,
 				814A3FDA1F04FD8900D9C58A /* NibCell.xib in Resources */,
 				818662CA1F024E50000539AB /* Assets.xcassets in Resources */,
@@ -414,24 +463,33 @@
 			files = (
 				818662E31F0257D9000539AB /* LabelCell.m in Sources */,
 				81E6B70A1F05F4BA001225C2 /* WorkingRangeSectionController.m in Sources */,
+				819F53471F0A1E2000CC0626 /* UserHeaderView.m in Sources */,
+				819F53511F0A322A00CC0626 /* SearchCell.m in Sources */,
 				814A3FB71F04AE2100D9C58A /* CenterLabelCell.m in Sources */,
 				814A3FCD1F04CEF400D9C58A /* User.m in Sources */,
+				819F53341F09F2DF00CC0626 /* Person.m in Sources */,
+				819F533D1F0A176800CC0626 /* FeedItem.m in Sources */,
 				818662E01F0252EE000539AB /* DemoSectionController.m in Sources */,
 				81D258DA1F035E7B003D1D0F /* SpinnerCell.m in Sources */,
 				814A3FBE1F04C9DB00D9C58A /* MixedDataViewController.m in Sources */,
+				819F534E1F0A2F7800CC0626 /* SearchSectionCotroller.m in Sources */,
 				818662C21F024E50000539AB /* AppDelegate.m in Sources */,
 				818662BF1F024E50000539AB /* main.m in Sources */,
 				81D258D11F035CFD003D1D0F /* LabelSectionController.m in Sources */,
 				814A3FC11F04CBD700D9C58A /* ExpandableSectionController.m in Sources */,
+				819F533A1F0A168300CC0626 /* SupplementaryViewController.m in Sources */,
+				819F53371F09F4C100CC0626 /* DiffTableViewController.m in Sources */,
 				814A3FBB1F04B26C00D9C58A /* NSArray+Number.m in Sources */,
 				818662DA1F025062000539AB /* DemosViewController.m in Sources */,
 				81E6B70D1F05F679001225C2 /* ImageCell.m in Sources */,
 				818662E91F0266E5000539AB /* BaseViewController.m in Sources */,
 				81261A2A1F039B3100B35800 /* CollectionViewController.m in Sources */,
 				814A3FAE1F04A82E00D9C58A /* HorizontalSectionController.m in Sources */,
+				819F534B1F0A2E9200CC0626 /* SearchViewController.m in Sources */,
 				814A3FB11F04A96A00D9C58A /* EmbeddedCollectionViewCell.m in Sources */,
 				81261A311F03AD9900B35800 /* RemoveSectionController.m in Sources */,
 				81D258CE1F03548D003D1D0F /* EmptyViewController.m in Sources */,
+				819F53401F0A1BF300CC0626 /* FeedItemSectionController.m in Sources */,
 				814A3FC41F04CBE900D9C58A /* GridSectionController.m in Sources */,
 				814A3FD91F04FD8900D9C58A /* NibCell.m in Sources */,
 				814A3FCA1F04CC6A00D9C58A /* GridItem.m in Sources */,
