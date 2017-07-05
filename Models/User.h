@@ -11,11 +11,13 @@
 
 @interface User : NSObject <IGListDiffable>
 
-@property (nonatomic, assign) NSInteger pk;
-@property (nonatomic, copy) NSString *name;
-@property (nonatomic, copy) NSString *handle;
+@property (nonatomic, assign, readonly) NSInteger pk;
+@property (nonatomic, copy, readonly) NSString *name;
+@property (nonatomic, copy, readonly) NSString *handle;
 
-- (instancetype)initWithPk:(NSInteger)pk name:(NSString *)name handle:(NSString *)handle;
+- (instancetype)initWithPk:(NSInteger)pk name:(NSString *)name handle:(NSString *)handle NS_DESIGNATED_INITIALIZER;
 + (instancetype)userWithPk:(NSInteger)pk name:(NSString *)name handle:(NSString *)handle;
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 @end

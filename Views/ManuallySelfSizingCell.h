@@ -1,15 +1,14 @@
 //
-//  LabelCell.h
+//  ManuallySelfSizingCell.h
 //  IGListKitDemo
 //
-//  Created by iOS on 2017/6/27.
+//  Created by iOS on 2017/7/4.
 //  Copyright © 2017年 lg. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <IGListKit.h>
 
-@interface LabelCell : UICollectionViewCell <IGListBindable>
+@interface ManuallySelfSizingCell : UICollectionViewCell
 
 @property (nonatomic, copy) NSString *text;
 

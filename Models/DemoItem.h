@@ -15,11 +15,11 @@
 @property (nonatomic, copy, readonly) Class controllerClass;
 @property (nonatomic, copy, readonly) NSString *controllerIdentifier;
 
-- (instancetype)initWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier;
+- (instancetype)initWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier NS_DESIGNATED_INITIALIZER;
 + (instancetype)DemoItemWithName:(NSString *)name controllerClass:(Class)controllerClass controllerIdentifier:(NSString *)controllerIdentifier;
 + (instancetype)DemoItemWithName:(NSString *)name controllerClass:(Class)controllerClass;
 
-//- (instancetype)init; NS_UNAVAILABLE;
-//- (instancetype)new; NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 
 @end

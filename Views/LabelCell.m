@@ -100,9 +100,11 @@
     self.contentView.backgroundColor = [UIColor colorWithWhite:highlighted ? 0.9 : 1 alpha:1];
 }
 
+#pragma mark - IGListBindable
 - (void)bindViewModel:(id)viewModel {
     if ([(NSObject *)viewModel isKindOfClass:[NSString class]]) {
         self.label.text = viewModel;
     }
 }
+
 @end

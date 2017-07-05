@@ -10,7 +10,7 @@
 
 @implementation FeedItem
 
-- (instancetype)initWithPk:(NSInteger)pk user:(User *)user comments:(NSArray *)comments
+- (instancetype)initWithPk:(NSInteger)pk user:(User *)user comments:(NSArray<NSString *> *)comments
 {
     self = [super init];
     if (self) {
@@ -21,7 +21,7 @@
     return self;
 }
 
-+ (instancetype)feedItemWithPk:(NSInteger)pk user:(User *)user comments:(NSArray *)comments {
++ (instancetype)feedItemWithPk:(NSInteger)pk user:(User *)user comments:(NSArray<NSString *> *)comments {
     return [[self alloc] initWithPk:pk user:user comments:comments];
 }
 

@@ -11,9 +11,12 @@
 
 @interface Person : NSObject <IGListDiffable>
 
-@property (nonatomic, assign) NSInteger pk;
-@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign, readonly) NSInteger pk;
+@property (nonatomic, copy, readonly) NSString *name;
 
+- (instancetype)initWithPk:(NSInteger)pk name:(NSString *)name NS_DESIGNATED_INITIALIZER;
 + (instancetype)personWithPk:(NSInteger)pk name:(NSString *)name;
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 @end

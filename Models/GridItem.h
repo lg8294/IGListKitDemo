@@ -11,9 +11,11 @@
 
 @interface GridItem : NSObject <IGListDiffable>
 
-@property (nonatomic, strong) UIColor *color;
-@property (nonatomic, assign) NSInteger itemCount;
+@property (nonatomic, strong, readonly) UIColor *color;
+@property (nonatomic, assign, readonly) NSInteger itemCount;
 
-- (instancetype)initWithColor:(UIColor *)color itemCount:(NSInteger)itemCount;
+- (instancetype)initWithColor:(UIColor *)color itemCount:(NSInteger)itemCount NS_DESIGNATED_INITIALIZER;
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 @end

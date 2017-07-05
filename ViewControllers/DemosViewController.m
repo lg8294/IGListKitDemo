@@ -15,9 +15,17 @@
 #import "EmptyViewController.h"
 #import "NestedAdapterViewController.h"
 #import "SingleSectionViewController.h"
+#import "StoryboardViewController.h"
+#import "SingleSectionStoryboardViewController.h"
 #import "WorkingRangeViewController.h"
 #import "DiffTableViewController.h"
 #import "SupplementaryViewController.h"
+#import "SelfSizingCellsViewController.h"
+#import "DisplayViewController.h"
+#import "StackedViewController.h"
+#import "ObjcDemoViewController.h"
+#import "CalendarViewController.h"
+#import "AnnouncingDepsViewController.h"
 
 @interface DemosViewController () <IGListAdapterDataSource>
 
@@ -46,17 +54,17 @@
                [DemoItem DemoItemWithName:@"嵌套的适配器" controllerClass:[NestedAdapterViewController class]],
                [DemoItem DemoItemWithName:@"空视图" controllerClass:[EmptyViewController class]],
                [DemoItem DemoItemWithName:@"单节控制器" controllerClass:[SingleSectionViewController class]],
-               [DemoItem DemoItemWithName:@"Storyboard" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"Single Section Storyboard" controllerClass:[LoadMoreViewController class]],
+               [DemoItem DemoItemWithName:@"Storyboard" controllerClass:[StoryboardViewController class] controllerIdentifier:@"demo"],
+               [DemoItem DemoItemWithName:@"Single Section Storyboard" controllerClass:[SingleSectionStoryboardViewController class] controllerIdentifier:@"singleSectionDemo"],
                [DemoItem DemoItemWithName:@"工作范围" controllerClass:[WorkingRangeViewController class]],
                [DemoItem DemoItemWithName:@"Diff算法" controllerClass:[DiffTableViewController class]],
                [DemoItem DemoItemWithName:@"补充视图" controllerClass:[SupplementaryViewController class]],
-               [DemoItem DemoItemWithName:@"Self-sizing cells" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"Display delegate" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"Stacked Section Controllers" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"Objc Demo" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"Calendar (auto diffing)" controllerClass:[LoadMoreViewController class]],
-               [DemoItem DemoItemWithName:@"Dependency Injection" controllerClass:[LoadMoreViewController class]]
+               [DemoItem DemoItemWithName:@"Self-sizing cells" controllerClass:[SelfSizingCellsViewController class]],
+               [DemoItem DemoItemWithName:@"Display delegate" controllerClass:[DisplayViewController class]],
+               [DemoItem DemoItemWithName:@"Stacked Section Controllers" controllerClass:[StackedViewController class]],
+               [DemoItem DemoItemWithName:@"Objc Demo" controllerClass:[ObjcDemoViewController class]],
+               [DemoItem DemoItemWithName:@"Calendar (auto diffing)" controllerClass:[CalendarViewController class]],
+               [DemoItem DemoItemWithName:@"Dependency Injection" controllerClass:[AnnouncingDepsViewController class]]
                ];
 }
 
