@@ -25,7 +25,7 @@
 
     NSInteger height = _height;
     CGFloat width = self.collectionContext.containerSize.width;
-    return [@"https://unsplash.it/" stringByAppendingFormat:@"%.1f/%ld", width, height];
+    return [@"https://picsum.photos/" stringByAppendingFormat:@"%.1f/%ld", width, height];
 }
 
 - (void)dealloc {
